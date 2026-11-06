@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://cp5af5030ykm3"]
+
+[ext_resource type="Texture2D" uid="uid://4tmv45wr645k" path="res://pixel-art-illustration-mine-quarry-pixelated-tunnel-mine-quarry-tunnel-pixelated-for-the-pixel-art-game-and-icon-for-website-and-video-game-old-school-retro-vector.jpg" id="1_kw1ab"]
+[ext_resource type="Texture2D" uid="uid://bdv0qaqr8tnvu" path="res://kenney_ui-pack-pixel-adventure/Tiles/Large tiles/Thick outline/tile_0000.png" id="2_shhiw"]
+
+[node name="Battle Scene" type="Node2D"]
+
+[node name="Mine BG" type="Sprite2D" parent="."]
+position = Vector2(516.75, 320.25)
+scale = Vector2(0.655931, 0.656633)
+texture = ExtResource("1_kw1ab")
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+offset_left = 8.0
+offset_top = 492.0
+offset_right = 1027.0
+offset_bottom = 641.0
+texture = ExtResource("2_shhiw")
+patch_margin_left = 6
+patch_margin_top = 6
+patch_margin_right = 6
+patch_margin_bottom = 6
